@@ -157,7 +157,7 @@ Tkinter ile yeterince vakit geçirdikten sonra bir şeyler denemek istedim. Flet
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B5CF6,50:EC4899,100:8B5CF6&height=100&section=footer&animation=twinkling" width="100%"/>
 
-**Nida Subaşı** · 2026 · Kişisel hobi projesi
+**Nida Subaşı** · 2026 · Üniversite Bitirme Projesi
 
 ![Python](https://img.shields.io/badge/Made_with-Python-8B5CF6?style=flat-square&logo=python&logoColor=white)
 ![Flet](https://img.shields.io/badge/UI-Flet-EC4899?style=flat-square&logo=flutter&logoColor=white)
