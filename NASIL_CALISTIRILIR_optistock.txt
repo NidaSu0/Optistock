@@ -1,0 +1,105 @@
+============================================================
+  OptiStock — Stok & CRM Yönetim Sistemi
+  Nida Subaşı  |  2026
+  Kullanım Kılavuzu
+============================================================
+
+Dosya: optistock.py
+Veritabanı: database.db  (program ilk açılışta otomatik oluşturur)
+
+BU PROGRAM FLET KÜTÜPHANESİ GEREKTİRİR.
+Aşağıdaki kurulum adımlarını bir kez yapmanız yeterlidir.
+
+============================================================
+  WINDOWS'DA KURULUM VE ÇALIŞTIRMA
+============================================================
+
+ADIM 1 — Python Kurulumu (eğer yoksa):
+  https://www.python.org/downloads/ adresinden indirin.
+  Kurulum sırasında "Add Python to PATH" kutusunu
+  mutlaka işaretleyin.
+
+ADIM 2 — Flet Kurulumu:
+  Başlat > "cmd" yazın > Enter
+  Açılan komut penceresine yazın:
+    pip install flet
+
+ADIM 3 — Programı Çalıştırın:
+
+  YÖNTEM A — Çift Tıklama (En Kolay):
+    optistock.py dosyasına çift tıklayın.
+    İlk açılışta siyah bir terminal penceresi kısa süre
+    açılır; ardından uygulama penceresi görünür.
+    Terminal penceresi kapanmasın — arka planda çalışır.
+
+  YÖNTEM B — Komut Satırı:
+    cmd'de dosyanın klasörüne gidin:
+      cd C:\Users\KULLANICI\Desktop\OptiStock
+    Çalıştırın:
+      python optistock.py
+
+  NOT: "python" komutu çalışmıyorsa "py" deneyin:
+    py optistock.py
+
+============================================================
+  MACOS'DA KURULUM VE ÇALIŞTIRMA
+============================================================
+
+ADIM 1 — Python Kurulumu (eğer yoksa):
+  https://www.python.org/downloads/ adresinden indirin.
+  Ya da terminalde: brew install python3
+  (Homebrew yoksa: brew.sh adresinden kurun)
+
+ADIM 2 — Flet Kurulumu:
+  Spotlight açın: Cmd + Space > "Terminal" > Enter
+  Yazın:
+    pip3 install flet
+
+ADIM 3 — Programı Çalıştırın:
+  Terminal'de dosyanın klasörüne gidin:
+    cd ~/Desktop/OptiStock
+  Çalıştırın:
+    python3 optistock.py
+
+  İlk açılışta macOS güvenlik uyarısı çıkabilir.
+  Sistem Tercihleri > Güvenlik > "Yine de İzin Ver"
+  diyerek geçin.
+
+============================================================
+  LINUX'DA ÇALIŞTIRMA
+============================================================
+
+  pip3 install flet
+  python3 optistock.py
+
+============================================================
+  PROGRAM ÖZELLİKLERİ
+============================================================
+
+  Dashboard   : Özet istatistikler, satış grafiği, son işlemler
+  Stok        : Ürün ekleme, fiyat ve stok takibi
+  Müşteriler  : CRM — müşteri kayıt ve listeleme
+  Satış       : Müşteri + ürün seçerek satış tamamlama
+
+  Tüm veriler database.db dosyasına kaydedilir.
+  Program silinse bile veriler bu dosyada kalır.
+
+============================================================
+  SORUN GİDERME
+============================================================
+
+"flet bulunamadı" hatası:
+  → pip install flet  komutunu tekrar çalıştırın.
+
+"python bulunamadı" hatası (Windows):
+  → Python'u PATH ile yeniden kurun.
+  → Ya da: py optistock.py  deneyin.
+
+Pencere açılmıyor (macOS):
+  → Terminal'de python3 optistock.py yazın;
+    hata mesajını görün.
+  → Gerekirse: pip3 install --upgrade flet
+
+============================================================
+  Hazırlayan : Nida Subaşı  |  2026
+============================================================
